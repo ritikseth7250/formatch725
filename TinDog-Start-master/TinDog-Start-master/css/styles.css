@@ -1,0 +1,174 @@
+#title{background-color:#ff4c68;
+    color: #fff;
+
+}
+ body{
+    font-family: Montserrat;
+ }
+
+ h2{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+ }
+
+
+ h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+p{
+    color: #8f8f8f
+}
+
+.navbar-brandfor{
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+.container{
+    padding: 3%;
+  
+    
+}
+  
+
+
+
+.fstyle{
+    font-family: fantasy;
+    font-size: 3.5rem;
+    line-height:1.5;
+}
+
+.titleimg{
+    width: 50%;
+    transform: rotate(25deg); 
+    position: absolute;
+    padding-top: 30px;
+}
+
+
+/*Feature Section*/
+
+#features{padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+
+}
+
+
+/* ico modifn*/
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials { padding: 8% 15%;
+    text-align: center;
+    background-color:#ef8172 ;
+    color: #fff;
+}
+
+.testimonial-image{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/*press*/
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/*Priceing*/
+
+
+#pricing{
+
+padding: 100px;
+text-align: center;
+
+}
+.priceing-column{
+    padding: 3% 2% ;
+}
+
+/*cta section*/
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.3ream;
+    line-height: 1.5;
+}
+
+
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+
+    .titleimg{
+        position: static;
+        transform: rotate(20deg);
+    }
+}
+
+
+.btn1{
+    margin: 10px;
+}
+
+/*footer*/
+
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.social-icon{
+    margin: 20px 10px ;
+}
